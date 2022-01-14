@@ -1,0 +1,286 @@
+/* font links  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Common utilities  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+    row-gap: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+.container1{
+    background-color: #ffffff;
+    width: 85%;
+    padding: 20px 10px;
+}
+.container2{
+    background-color: #ffffff;
+    width: 85%;
+    padding: 20px 10px;
+}
+.section1-tittle{
+    font-size: 24px;
+    color: rgb(110, 54, 112);
+    font-weight: bold;
+
+}
+
+/* header style  */
+.header-main{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 150px;
+    margin-top: 50px;
+}
+.fa-camera{
+    color: rgb(54, 112, 112);
+}
+.header-tittle{
+    font-size: 40px;
+    color: #3A3A3A;
+    font-weight: 700;
+}
+.header-tittle span{
+    color: rgb(54, 112, 112);
+}
+.header-detail{
+    font-size: 16px;
+    color:#3A3A3A;
+    margin-bottom: 30px;
+}
+.header-left a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: rgb(54, 112, 112);
+    padding: 10px 24px;
+    border-radius: 40px;
+    
+}
+.header-left a:hover{
+    background-color: rgb(110, 54, 112);
+    transition: 1s;
+    box-shadow: 0px 0px 10px 0px rgb(110, 54, 112);
+}
+.fa-arrow-right{
+    margin-left: 5px;
+}
+
+.header-right img{
+    width: 480px;
+    height: 440px; 
+}
+/* header style  */
+/* product styles  */
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    
+}
+#section2-tittle{
+    text-align: center;
+    color: rgb(54, 112, 112);
+}
+.product{
+    width: 330px;
+    height: 475px;
+    padding: 14px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+}
+.product:hover{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.301);
+
+}
+.product-banner img{
+    width: 300px;
+    height: 255px;
+}
+.product-info{
+    padding: 5px;
+
+}
+.product-name{
+    font-size: 28px;
+    font-weight: 500;
+    color: #18191F;
+
+}
+.product-price{
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
+}
+.fa-star{
+    font-size: 16px;
+    color: #FB8200;
+     
+}
+.rating span{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #5e6366d3;
+}
+.product-des{
+    color:#787885d7 ;
+}
+.see-more{
+    text-align: end;
+    
+}
+.see-more a{
+    text-decoration: none;
+    color: rgb(54, 112, 112);
+    font-weight: bold;
+
+}
+ /* footer styles  */
+ footer{
+     background-color: rgb(54, 112, 112);
+     width: 100%;
+     color: rgb(255, 255, 255);
+     height: 170px;
+     text-align: center;
+    
+ }
+ .footer-content{
+     padding-top: 30px;
+ }
+ .footer-content p{
+     font-size: 16px;
+     margin-bottom: 10px;
+ }
+.social-icons .fab{
+    font-size: 18px;
+    letter-spacing: 5px;
+    
+}
+.social-icons .fab:hover{
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media quary  */
+@media only screen and (max-width:688px) {
+    /* header section mobile device  */
+    .container1{
+        width: 100%;
+        padding: 20px 10px;
+    }
+    .section1-tittle{
+        font-size: 16px;
+    }
+    .header-main{
+        text-align: center;
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 40px;
+    }
+    .header-tittle{
+        font-size: 35px;
+        
+    }
+
+    .header-right img{
+        width: 380px;
+        height: 350px;
+    }
+
+    /* product section mobile device */
+    .container2{
+        width: 90%;
+    }
+    .products{
+        grid-template-columns: repeat(1,1fr);
+        grid-column-gap: 30px;
+        
+    }
+
+}
