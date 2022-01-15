@@ -90,7 +90,14 @@ main{
 
 .header-right img{
     width: 480px;
-    height: 440px; 
+    height: 440px;
+    
+}
+.header-right img:hover{
+    transform: scale(1.1,1.1);
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+    
 }
 /* header style  */
 /* product styles  */
@@ -252,8 +259,14 @@ footer{
         grid-template-columns: repeat(1,1fr);
         grid-row-gap: 40px;
     }
+    .header-left{
+        order: 2;
+    }
+    .header-right{
+        order: 1;
+    }
     .header-tittle{
-        font-size: 3px;
+        font-size: 28px;
         
     }
     .header-detail{
@@ -283,6 +296,12 @@ footer{
     grid-template-columns: repeat(1,1fr);
     margin-top: 10px;
     grid-row-gap: 40px;
+    }
+    .contact-left{
+        order: 2;
+    }
+    .contact-right{
+        order: 1;
     }
     .contact-left h1{
         text-align: center;
