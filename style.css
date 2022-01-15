@@ -318,8 +318,12 @@ footer{
         grid-row-gap: 40px;
     }
     .header-tittle{
-        font-size: 35px;
+        font-size: 32px;
         
+    }
+    .header-detail{
+        text-align: justify;
+        padding: 5px 10px;
     }
 
     .header-right img{
