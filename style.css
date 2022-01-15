@@ -34,6 +34,11 @@ main{
     padding: 20px 10px;
 
 }
+.container4{
+    background-color: #ffffff;
+    width: 100%;
+
+}
 .section1-tittle{
     font-size: 24px;
     color: rgb(110, 54, 112);
@@ -232,76 +237,6 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Media quary  */
 @media only screen and (max-width:688px) {
     /* header section mobile device  */
@@ -318,7 +253,7 @@ footer{
         grid-row-gap: 40px;
     }
     .header-tittle{
-        font-size: 32px;
+        font-size: 3px;
         
     }
     .header-detail{
@@ -358,4 +293,60 @@ footer{
     .contact-right img{
         height: 200px;
     }
+
 }
+
+/* header section tab device  */
+@media only screen and (min-width: 688px) and (max-width:992px) {
+
+ .container1{
+     width: 90%;
+     padding: 20px 5px;
+ }
+ .header-main{
+     grid-column-gap: 10px;
+     justify-items: center;
+ }
+ .header-tittle{
+     font-size: 28px;
+ }
+ .header-right img{
+    width: 300px;
+    height: 270px;
+    
+ }
+  /* product section tab device  */
+
+  .container2{
+      width: 90%;
+      padding: 20px 5px;
+    
+  }
+  .products {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 20px;
+    justify-items: center;
+    margin-bottom: 30px;
+}
+.product{
+    margin-bottom: 0;
+}
+ /* contact section tab device  */
+ .container3{
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 0px 20px;
+
+}
+.contact-right img {
+    height: 250px;
+}
+/* footer tablet device  */
+
+footer{
+    width: 90%;
+    width: -webkit-fill-available;
+   
+}
+ }
